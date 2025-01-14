@@ -1,0 +1,67 @@
+body{ 
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+    background-color: black;
+}
+
+h1{ 
+    color:lightgrey;
+}
+
+.container{ 
+    display:flex ; 
+    flex-direction: row;
+    align-items: center;
+    color:lightgrey;
+}
+
+.content{
+    display: flex ;
+    flex-direction: column;
+    height: 80vh;
+    width: 40vw; 
+    overflow: scroll;
+}
+
+.images{ 
+    display: flex ;
+    flex-direction: column;
+    height: 80vh;
+    width: 40vw; 
+    overflow:scroll; 
+}
+
+.ad{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start;
+    float:right;
+    overflow:scroll; 
+    height: 80vh;
+    width: 20vw;  
+}
+
+.ad-img {
+    width:300px; 
+    height:auto;
+  }
+
+.url a{ 
+    color:lightgrey;
+    text-decoration: none;
+  }
+
+  .url a:hover {
+    color: lightblue; 
+    text-decoration: underline; 
+    font-weight:200px;
+  }
+
+
+  .url p:hover {
+    color: lightblue; 
+  }
+.footer{ 
+    color: lightgrey;
+}
