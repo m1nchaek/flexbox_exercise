@@ -2,18 +2,18 @@ body{
     padding: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: space-between;
-    background-color: black;
 }
 
 h1{ 
-    color:lightgrey;
+    color:black;
+    align-items: center;
 }
 
 .container{ 
     display:flex ; 
     flex-direction: row;
     align-items: center;
-    color:lightgrey;
+    color:darkgrey;
 }
 
 .content{
@@ -48,7 +48,7 @@ h1{
   }
 
 .url a{ 
-    color:lightgrey;
+    color: darkgrey;;
     text-decoration: none;
   }
 
